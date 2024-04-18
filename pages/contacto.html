@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- link css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--link icons bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>suculentiando</title>
+</head>
+
+<body class="color-de-fondo">
+    <header>
+        <!--nav-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../img/logo11.png"
+                        alt="imagen de suculenta de logo" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link-inicio" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link-especies" aria-current="page" href="especies.html">Especies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link-cuidados" aria-current="page" href="cuidados.html">Cuidados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link-galeria" aria-current="page" href="galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link-contacto" aria-current="page" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--main-->
+    <main>
+        <section class="sec-contacto">
+            <h1 class="titulo-h1">Contacto</h1>
+            <form>
+                <div class="formulario">
+                    <div class="tabla-informacion">
+                        <div class="input">
+                            <label for="Nombre">Nombre</label>
+                            <input type="text" placeholder="Ingresá tu nombre" id="Nombre">
+                        </div>
+                        <div class="input">
+                            <label for="Email">Email</label>
+                            <input type="email" placeholder="Ingresá tu email" id="Email">
+                        </div>
+                        <div class="input">
+                            <label for="Teléfono">Teléfono</label>
+                            <input type="tel" placeholder="Ingresá tu número de teléfono" id="Teléfono">
+                        </div>
+                        <div class="textarea">
+                            <label for="Mensaje">Mensaje</label>
+                            <textarea name="Mensaje" id="Mensaje" cols="30" rows="10"
+                                placeholder="Ingresá tu mensaje"></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </div>
+                    <article class="parrafo-contacto">
+                        <p class="texto-contacto">¿Tenés alguna pregunta sobre suculentas o necesitas asesoramiento
+                            sobre cómo cuidarlas? ¡Estamos para ayudarte! No dudes en ponerte en contacto con nuestro
+                            equipo dedicado y apasionado por las suculentas. Ya sea que estés buscando consejos de
+                            jardinería o simplemente queres compartir tu amor por estas plantas únicas. Completa el
+                            formulario de contacto o envíanos un correo electrónico y te responderemos en breve.
+                            ¡Gracias por ser parte de nuestra comunidad de amantes de las suculentas!
+                        </p>
+                        <i class="bi bi-envelope">Email:suculentiando@gmail.com</i>
+                        <i class="bi bi-telephone">Teléfono:0221 - 6745392</i>
+                    </article>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!--footer-->
+    <div class="b-example-divider"></div>
+
+    <div class="container">
+        <footer class="py-3 my-4 bg-gradient">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary">Inicio</a>
+                </li>
+                <li class="nav-item"><a href="especies.html" class="nav-link px-2 text-body-secondary">Especies</a>
+                </li>
+                <li class="nav-item"><a href="cuidados.html" class="nav-link px-2 text-body-secondary">Cuidados</a>
+                </li>
+                <li class="nav-item"><a href="galeria.html" class="nav-link px-2 text-body-secondary">Galeria</a>
+                </li>
+                <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-body-secondary">Contacto</a>
+                </li>
+            </ul>
+            <p class="text-center text-body-secondary">&copy; 2024 Suculentiando</p>
+        </footer>
+    </div>
+
+    <!--scrip bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
